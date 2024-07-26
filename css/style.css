@@ -41,12 +41,6 @@
     }
 }
 
-/* Navbar 3D Hover Effect */
-/* nav ul li a:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-} */
-
 nav ul li a:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -115,3 +109,22 @@ ul li a:hover:before, ul li a:hover:after {
         text-align: center;
     }
 }
+
+/*  Styling For the Pop up Ad banner */
+
+  .close-button {
+    background-color: rgba(55, 65, 81, 0.8);
+    color: white;
+    border-radius: 9999px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 0;
+    cursor: pointer;
+  }
+  .close-button:hover {
+    background-color: rgba(31, 41, 55, 0.8);
+  }
