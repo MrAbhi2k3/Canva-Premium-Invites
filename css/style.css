@@ -128,3 +128,20 @@ ul li a:hover:before, ul li a:hover:after {
   .close-button:hover {
     background-color: rgba(31, 41, 55, 0.8);
   }
+
+  /* How to Download CSS */
+
+  .vid iframe{
+    border: none;
+    margin-left: 30%;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .vid iframe{
+      margin-right: -250vw;
+      width: 250px;
+      height: 300px;
+    }
+    
+  }
