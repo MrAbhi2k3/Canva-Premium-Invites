@@ -69,7 +69,7 @@ ul li a:before, ul li a:after {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #f39912;
+    background: #12f321;
     left: 0;
     transform: scaleX(0);
     transition: transform 0.3s;
@@ -113,7 +113,7 @@ ul li a:hover:before, ul li a:hover:after {
 /*  Styling For the Pop up Ad banner */
 
   .close-button {
-    background-color: rgba(55, 65, 81, 0.8);
+    background-color: rgba(9, 10, 11, 0.8);
     color: white;
     border-radius: 9999px;
     width: 32px;
